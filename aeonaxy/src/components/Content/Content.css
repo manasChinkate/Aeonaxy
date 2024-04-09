@@ -1,0 +1,19 @@
+.expanded {
+    width: 100%;
+  }
+  
+  .left.expanded {
+    width: 100%;
+  }
+  
+  .left {
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .relative {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .relative.expanded {
+    transform: translateX(-100%);
+  }
